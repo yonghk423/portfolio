@@ -96,9 +96,9 @@ const Navbar = () => {
       animate={controls}
     >
       <div className="brand__container">
-        <a href="#" className="brand">
+        {/* <a href="#" className="brand">
           <img src={logo} alt="Logo" />
-        </a>
+        </a> */}
         <div className="toggle">
           {isNavOpen ? (
             <MdClose onClick={() => setIsNavOpen(false)} />

@@ -86,16 +86,14 @@ const Home = () => {
             >
             <div className="content">
                 <div className="title">
-                <h1>Digital Crafters</h1>
+                <h2>안녕하세요, 프론트엔드 개발자 김용희입니다.</h2>
             </div>
             <div className="subTitle">
                 <p>
-                The not errors rendering handed he you concepts fate objective
-                rare boss a road a he while what before to he is size separated
-                room cold hunt by and they my
+                왜?라는 질문에 답을 얻는 과정을 지향하는 개발자가 되고자 합니다. 빨리 가기보다는, 지치지 않고 멀리 가는 개발자를 꿈꿉니다.
                 </p>
             </div>
-            <img src={play} alt="Play Button" />
+            {/* <img src={play} alt="Play Button" /> */}
             </div>    
             </motion.div>
             <motion.div
@@ -105,31 +103,30 @@ const Home = () => {
                 >
             <div className="grid">
                 <div className="col">
-                    <strong>Agency</strong>
-                    <p>Digital Crafters</p>
+                    <strong>Education</strong>
+                    <p>코드스테이츠 부트캠프 수료(2021.06 - 2021.11)</p>
                 </div>
                 <div className="col">
                     <strong>Email</strong>
-                    <p>kishansheth21@gmail.com</p>
+                    <p>yonghk423423@gmail.com</p>
                 </div>
                 <div className="col">
                     <strong>Mobile</strong>
-                    <p>+91 1231231131</p>
+                    <p>010-4907-5443</p>
                 </div>
                 <div className="col">
-                    <strong>Address</strong>
-                    <p>Some Street India,</p>
-                    <p>960105 India</p>
+                    <strong>Github</strong>
+                    {/* <p>Some Street India,</p>
+                    <p>960105 India</p> */}
                 </div>
                 <div className="col">
-                    <strong>Services</strong>
-                    <p>Corporate Identity</p>
-                    <p>Full Coding</p>
+                    <strong>Blog</strong>
+                    {/* <p>Corporate Identity</p>
+                    <p>Full Coding</p> */}
                 </div>
                 <div className="col">
-                    <strong>Working Hours</strong>
-                    <p>Monday to Friday</p>
-                    <p>06:00 to 18:00</p>
+                    <strong>University</strong>
+                    <p>세종대학교(물리학과, 복수전공(전자공학과))</p>
                 </div>
             </div>
             </motion.div>
