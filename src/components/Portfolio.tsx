@@ -6,6 +6,7 @@ import play from "../assets/play.png";
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
 import { blogsAnimations } from "../animations";
+import market from "../assets/market.jpeg"
 
 const Section = styled.section<{ref:any}>`
   min-height: 100vh;
@@ -65,42 +66,17 @@ const Section = styled.section<{ref:any}>`
         }
       }
     }
-  }
-  @media screen and (min-width: 280px) and (max-width: 1080px) {
-    margin: 2rem 0;
-    .decoration {
-      display: none;
-    }
-    .blogs {
-      padding: 0 2rem;
-      grid-template-columns: 1fr;
-      margin: 0 1rem;
-    }
-  }
+  }  
+`;
+
+const Img = styled.img`
+margin: 100px;
+border: 1px solid black;
 `;
 
 const Portfolio = () => {
     const [element, controls]:any = useScroll();
-    const blogsData = [
-    {
-      title: "Summer trip to mountains",
-      type: "Adeventure",
-      description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores deleniti rem delectus optio harum omnis veniam adipisci ducimus deserunt repudiandae?",
-    },
-    {
-      title: "Flowers purple from sky",
-      type: "Personal",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam debitis consectetur ex tempora voluptatum deleniti, officiis dicta eos illo adipisci!",
-    },
-    {
-      title: "Rock conert main stage",
-      type: "Music",
-      description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea est repudiandae nesciunt mollitia ad molestias dignissimos praesentium fugit reiciendis quis?",
-    },
-  ];
+    
     return (
     <Section id="blog" ref={element}>
       {/* <Title value="Blog" /> */}
@@ -117,9 +93,9 @@ const Portfolio = () => {
               }}
               whileInView={{ opacity: 1, y: 0 }}
             >
-              <div className="image">
-                <img src={placeholder} alt="Placeholder" />
-              </div>
+              {/* <div className="image"> */}
+                <Img src={market} alt="Placeholder" />
+              {/* </div> */}
               <div className="title">
                 <h3>배추마켓 온라인 마켓 서비스 웹사이트</h3>
               </div>
