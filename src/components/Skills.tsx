@@ -10,48 +10,16 @@ import { servicesAnimations } from "../animations";
 import Title from './Title';
 
 const Section = styled.section<{ref:any}>`
-  min-height: 100vh;
+  min-height: 40vh;
   .services {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
     align-items: center;
     height: 100%;
     margin: 0 14rem;
     margin-top: 10rem;
-    gap: 5rem;
-    &__service {
-      padding: 2rem;
-      &:nth-of-type(3) {
-        background-color: var(--primary-color);
-        .services__service__title {
-          span {
-            color: white;
-          }
-        }
-        .services__service__description {
-          color: white;
-        }
-      }
-      &__image {
-        margin-bottom: 3rem;
-      }
-      &__title {
-        span {
-          color: var(--primary-color);
-          font-weight: bolder;
-        }
-        h2 {
-          font-size: 3rem;
-          line-height: 2.5rem;
-          margin-bottom: 5rem;
-          color: var(--secondary-color);
-        }
-      }
-      &__description {
-        color: var(--primary-color);
-        margin-bottom: 2rem;
-      }
-    }
+    padding : 50px;
+    row-gap : 20px;
   }
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     .services {
@@ -68,7 +36,7 @@ const Skills = () => {
     const data = [
         {
             type: "Front-end",
-            text: "JavaScript, HTML, CSS, TypeScript, React.js, Next.js, Redux.js, Redux-Thunk, SWR, webpack, styled-components",
+            text: "JavaScript, HTML, CSS, TypeScript, React.js, Next.js Redux.js Redux-Thunk SWR webpack, styled-components",
             image: service1,
         },
         {
@@ -101,10 +69,10 @@ const Skills = () => {
               whileInView={{ opacity: 1, y: 0 }}
             >
               <div className="services__service__image">
-                <img src={service.image} alt="service" />
+                {/* <img src={service.image} alt="service" /> */}
               </div>
               <div className="services__service__title">
-                <span>0{index + 1}</span>
+                {/* <span>0{index + 1}</span> */}
                 <h2>{service.type}</h2>
               </div>
               <p className="services__service__description">{service.text}</p>
