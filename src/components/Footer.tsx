@@ -45,7 +45,7 @@ const Footer = () => {
           duration: 0.8,
         }}
       >
-        &copy; Template created with love by Kishan Sheth
+        &copy; 2022 Designed & Developed By Kim Yong Hee
       </motion.span>
       <motion.div
         className="footer__social__icons"
@@ -57,10 +57,10 @@ const Footer = () => {
           duration: 0.8,
         }}
       >
-        <BsBehance />
+        {/* <BsBehance />
         <BsTwitter />
         <BsFacebook />
-        <BsYoutube />
+        <BsYoutube /> */}
       </motion.div>
     </Foot>
 
