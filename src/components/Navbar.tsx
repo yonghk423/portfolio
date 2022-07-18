@@ -69,7 +69,7 @@ const Nav = styled(motion.nav)<{ state : number, ref: any, animate: any}>`
       right: 0;
       width: ${({ state }) => (state ? "60%" : "0%")};
       height: 100vh;
-      background-color: var(--secondary-color);
+      background-color: #ff4343;
       opacity: 0;
       visibility: hidden;
       transition: 0.4s ease-in-out;
