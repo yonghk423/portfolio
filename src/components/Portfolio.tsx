@@ -121,11 +121,11 @@ const Portfolio = () => {
                 <img src={placeholder} alt="Placeholder" />
               </div>
               <div className="title">
-                <h3>{title}</h3>
+                <h3>배추마켓 온라인 마켓 서비스 웹사이트</h3>
               </div>
-              <span className="type">{type}</span>
+              <span className="type">2021.5.25(1인 개인 프로젝트)</span>
               <div className="description">
-                <p>{description}</p>
+                <p>프론트엔드 개발자로서 api 요청을 통한 <strong>데이터 관리</strong>를 할 수 있는 능력을 향상 시키고자 하였습니다. <br></br> <strong> 풀스텍 기반의 웹사이트를 완성한다는 도전 </strong> 은 쉽지 않았으나 <strong>Next.js 에서 제공하는 API Routes</strong> 와 비테스(Vitess) 기반의 MySQL 호환 <strong>서버리스</strong> 데이터베이스 플랫폼인 planetscale을 사용하여 까다로운 서버 관리 파트를 최소화 시킴으로서 <strong>api 와 연동</strong>하는 웹사이트를 개발 할 수 있었습니다. 또한 <strong>data fetching 라이브러리</strong>인 <strong>SWR</strong>을 사용하여 데이터 캐싱의 장점을 직접 경험 할수 있었습니다. <strong>프론트엔드와 백엔드의 큰 흐름을 경험</strong>하게 된 큰 경험이었으며 현재도 성능 최적화와 리팩터링를 하며 역량을 키우고 있습니다. </p>
               </div>
               <div className="more">
                 <img src={play} alt="play" />
