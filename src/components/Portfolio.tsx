@@ -88,6 +88,8 @@ const Section = styled.section<{ref:any}>`
 `;
 
 const Img = styled.img`
+  justify-content: center;
+  align-items: center;
   margin: 100px;
   box-shadow: 10px 15px 25px 0 rgba(0,0,0,.5);
   border-radius: 5px;
