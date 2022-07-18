@@ -123,14 +123,16 @@ const Home = () => {
                     <p>010-4907-5443</p>
                 </div>
                 <div className="col">
+                  <a style={{textDecoration: 'none' , color : 'white'}} href='https://github.com/yonghk423'>
                     <strong>Github</strong>
+                  </a>                    
                     {/* <p>Some Street India,</p>
                     <p>960105 India</p> */}
                 </div>
                 <div className="col">
+                  <a style={{textDecoration: 'none', color : 'white'}} href='https://velog.io/@yonghk423'>
                     <strong>Blog</strong>
-                    {/* <p>Corporate Identity</p>
-                    <p>Full Coding</p> */}
+                  </a>
                 </div>
                 <div className="col">
                     <strong>University</strong>
