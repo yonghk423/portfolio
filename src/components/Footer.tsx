@@ -29,6 +29,7 @@ const Foot = styled.footer`
     flex-direction: column;
     text-align: center;
     gap: 1rem;
+    font-size: 13px;
   }
 `;
 
