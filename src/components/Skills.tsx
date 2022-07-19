@@ -32,7 +32,12 @@ const Section = styled.section<{ref:any}>`
   }
 `;
 
+const SkillTitle = styled.h2`
+padding: 10px;
+`
+
 const SkillsBox = styled.div`
+  /* width:700px; */
   background-color: rgba(225, 225, 225, 0.2);
   border-radius: 10px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
@@ -42,13 +47,15 @@ const SkillsBox = styled.div`
 const P = styled.p`
 color: #9c64a6;
 font-weight: bolder;
+font-size: 20px;
+padding: 10px;
 `;
 
 const Skills = () => {
     const [ element, controls ]:any = useScroll();    
     return (
         <Section id="services" ref={element}>
-        {/* <Title value="skills" /> */}
+        <Title value="skills" />
         <div className="services">      
             <motion.div
               className="services__service"
@@ -62,16 +69,16 @@ const Skills = () => {
               whileInView={{ opacity: 1, y: 0 }}
             >
               <SkillsBox>          
-                <h2>Front-end</h2>
+                <SkillTitle>Front-end</SkillTitle>
                 <P>
                 JavaScript, HTML, CSS, TypeScript, React.js, Next.js <br></br> 
-                Redux.js Redux-Thunk SWR webpack, styled-components
+                Redux.js, Redux-Thunk, SWR, webpack, styled-components
                 </P>
-                <h2>Back-end</h2>
+                <SkillTitle>Back-end</SkillTitle>
                 <P>
                 Node.js, Prisma
                 </P>
-                <h2>Deployment & database</h2>
+                <SkillTitle>Deployment & database</SkillTitle>
                 <P>
                 S3, Vercel, Heroku & planetscale
                 </P>

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-// import Title from "./Title";
+import Title from "./Title";
 // import placeholder from "../assets/placeholder.png";
 import play from "../assets/play.png";
 import { motion } from "framer-motion";
@@ -106,7 +106,7 @@ const Portfolio = () => {
     
     return (
     <Section id="blog" ref={element}>
-      {/* <Title value="Blog" /> */}
+      <Title value="Portfolio" />
       {/* <div className="decoration"></div> */}
       <div className="blogs">   
             <motion.div

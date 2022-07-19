@@ -42,15 +42,20 @@ const Section = styled.section`
   }
   .info {
     position: absolute;
-    bottom: -6rem;
+    bottom: -2rem;
     right: 0;
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     padding: 4rem;
+    background-color: rgba(225, 225, 225, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
+    color: black;
     .grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 4rem;
       color: white;
+      
     }
   }
   @media screen and (min-width: 280px) and (max-width: 1080px) {
@@ -71,9 +76,15 @@ const Section = styled.section`
       position: initial;
       .grid {
         grid-template-columns: 1fr;
+        
       }
     }
   }
+`;
+
+const List = styled.strong`
+font-size: 20px;
+font-weight: bolder;
 `;
 
 const Title = styled.p`
@@ -98,7 +109,7 @@ const Home = () => {
                 </div>
             <div className="subTitle">
                 <TitleDetail>
-                왜?라는 질문에 답을 얻는 과정을 지향하는 <br></br>  개발자가 되고자 합니다. 빨리 가기보다는 <br></br> 지치지 않고 멀리 가는 개발자를 꿈꿉니다.
+                왜?라는 질문에 답을 얻는 과정을 지향하는 <br></br>  개발자가 되고자 합니다. 빨리 가기보다는 <br></br> 지치지 않고 멀리 가는 개발자를 꿈꿉니다✨.
                 </TitleDetail>
             </div>
             {/* <img src={play} alt="Play Button" /> */}
@@ -111,31 +122,31 @@ const Home = () => {
                 >
             <div className="grid">
                 <div className="col">
-                    <strong>Education</strong>
+                    <List>Education</List>
                     <p>코드스테이츠 부트캠프 수료(2021.06 - 2021.11)</p>
                 </div>
                 <div className="col">
-                    <strong>Email</strong>
+                    <List>Email</List>
                     <p>yonghk423423@gmail.com</p>
                 </div>
                 <div className="col">
-                    <strong>Mobile</strong>
+                    <List>Mobile</List>
                     <p>010-4907-5443</p>
                 </div>
                 <div className="col">
                   <a style={{textDecoration: 'none' , color : 'white'}} href='https://github.com/yonghk423'>
-                    <strong>Github</strong>
+                    <List>Github</List>
                   </a>                    
                     {/* <p>Some Street India,</p>
                     <p>960105 India</p> */}
                 </div>
                 <div className="col">
                   <a style={{textDecoration: 'none', color : 'white'}} href='https://velog.io/@yonghk423'>
-                    <strong>Blog</strong>
+                    <List>Blog</List>
                   </a>
                 </div>
                 <div className="col">
-                    <strong>University</strong>
+                    <List>University</List>
                     <p>세종대학교(물리학과, 복수전공(전자공학과))</p>
                 </div>
             </div>
