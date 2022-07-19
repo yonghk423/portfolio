@@ -97,7 +97,7 @@ const Img = styled.img`
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     width: 350px;
     position: relative;
-    left: -135px;
+    left: -130px;
   }
 `;
 
