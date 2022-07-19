@@ -93,6 +93,12 @@ const Img = styled.img`
   margin: 100px;
   box-shadow: 10px 15px 25px 0 rgba(0,0,0,.5);
   border-radius: 5px;
+
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    width: 350px;
+    position: relative;
+    left: -135px;
+  }
 `;
 
 const Detail = styled.p`
