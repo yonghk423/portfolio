@@ -89,10 +89,16 @@ font-weight: bolder;
 
 const Title = styled.p`
   font-size: 30px;
+  @media screen and (min-width: 280px) and (max-width: 1080px) { 
+    font-size: 27px;
+   }
 `;
 
 const TitleDetail = styled.p`
   font-size: 20px;
+  @media screen and (min-width: 280px) and (max-width: 1080px) { 
+    font-size: 17px;
+   }
 `
 const Home = () => {
     return (
