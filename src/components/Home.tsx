@@ -90,7 +90,7 @@ font-weight: bolder;
 const Title = styled.p`
   font-size: 30px;
   @media screen and (min-width: 280px) and (max-width: 1080px) { 
-    font-size: 27px;
+    font-size: 20px;
    }
 `;
 
