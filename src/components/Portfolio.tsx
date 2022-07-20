@@ -132,7 +132,7 @@ const Portfolio = () => {
               <div className="title">
                 <h3>배추마켓 온라인 마켓 서비스 웹사이트</h3>
               </div>
-              <span className="type">2021.5.25(1인 개인 프로젝트)</span>
+              <span className="type">2021.5.25(개인 프로젝트)</span>
               <a style={{textDecoration: 'none'}} href='https://github.com/yonghk423/next.js-market'>
                 <div className="type">GitHub</div>
               </a>
@@ -165,7 +165,7 @@ const Portfolio = () => {
               <div className="title">
                 <h3>추억을 담다 웹사이트</h3>
               </div>
-              <span className="type">2021.12.01(1인 개인 프로젝트)</span>
+              <span className="type">2021.12.01(개인 프로젝트)</span>
               <a style={{textDecoration: 'none'}} href='https://github.com/yonghk423/keep-memories'>
                 <div className="type">GitHub</div>
               </a>
@@ -196,7 +196,7 @@ const Portfolio = () => {
               <div className="title">
                 <h3>나랏말싸미 웹사이트</h3>
               </div>
-              <span className="type">2021.11 - 2021.12(4인/4주)</span>
+              <span className="type">2021.11 - 2021.12(4인/팀장)</span>
               <a style={{textDecoration: 'none'}} href='https://github.com/codestates/TheKing-sLetters'>
                 <div className="type">GitHub</div>
               </a>
