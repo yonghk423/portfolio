@@ -111,7 +111,7 @@ const Home = () => {
             >
             <div className="content">
                 <div className="title">
-                  <Title>안녕하세요, 프론트엔드 개발자 김용희입니다.</Title>
+                  <Title>안녕하세요, 프론트엔드 개발자 김용희입니다🧑🏻‍💻</Title>
                 </div>
             <div className="subTitle">
                 <TitleDetail>
