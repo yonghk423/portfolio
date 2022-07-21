@@ -9,6 +9,7 @@ import { blogsAnimations } from "../animations";
 import market from "../assets/market.jpeg"
 import keepmemory from "../assets/keepmemory.jpeg"
 import naramal from "../assets/naramal.jpeg"
+import fourmen from "../assets/fourmen.jpeg"
 
 const Section = styled.section<{ref:any}>`
   min-height: 100vh;
@@ -165,7 +166,7 @@ const Portfolio = () => {
               <div className="title">
                 <h3>추억을 담다 웹사이트</h3>
               </div>
-              <span className="type">2021.12.01(개인 프로젝트)</span>
+              <span className="type">2022.01 - 2022.04(개인 프로젝트)</span>
               <a style={{textDecoration: 'none'}} href='https://github.com/yonghk423/keep-memories'>
                 <div className="type">GitHub</div>
               </a>
@@ -190,9 +191,7 @@ const Portfolio = () => {
                 </a>            
               </div>
 
-              {/* <div className="image"> */}
-                <Img src={naramal} alt="Placeholder" />
-              {/* </div> */}
+              <Img src={naramal} alt="Placeholder" />
               <div className="title">
                 <h3>나랏말싸미 웹사이트</h3>
               </div>
@@ -200,7 +199,7 @@ const Portfolio = () => {
               <a style={{textDecoration: 'none'}} href='https://github.com/codestates/TheKing-sLetters'>
                 <div className="type">GitHub</div>
               </a>
-              <a style={{textDecoration: 'none'}} href='https://thekingsletters.ml'>
+              <a style={{textDecoration: 'none'}} href='https://the-king-s-letters-re.vercel.app'>
                 <div className="type">URL</div>  
               </a>
               {/* <div className="description"> */}
@@ -214,6 +213,32 @@ const Portfolio = () => {
               <div className="more">
                 <img src={play} alt="play" />
                 <a style={{textDecoration: 'none'}} href='https://velog.io/@yonghk423?tag=4%EC%A3%BC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8'>
+                  <span className="type">자세히 보기</span>  
+                </a>            
+              </div>
+
+               <Img src={fourmen} alt="Placeholder" />
+              <div className="title">
+                <h3>Fourmen Air 웹사이트</h3>
+              </div>
+              <span className="type">(2021.10 - 2021.11)(4인/팀장)</span>
+              <a style={{textDecoration: 'none'}} href='https://github.com/codestates/FourmenAir'>
+                <div className="type">GitHub</div>
+              </a>
+              <a style={{textDecoration: 'none'}} href='https://fourmen-air-flame.vercel.app'>
+                <div className="type">URL</div>  
+              </a>
+              {/* <div className="description"> */}
+                <Detail>첫 팀프로젝트이며 팀장을 맡게 되었습니다. <strong>팀원들과 원활한 소통</strong>을 위하여 노력하였으며 또한 <strong>맡은 파트에 대한 책임감</strong>을 갖으며 제 자신의 부족한 점도 파악할 수 있었던 매우 귀중한 프로젝트였습니다. 최근 트렌드가 된 차박 여행정보 웹사이트를 개발하였습니다.
+                </Detail>
+              {/* </div> */}
+              <div className="type">주요 기능 <br></br> 계절별, 지역별 차박 여행 정보 및 리뷰 기능 </div>
+              {/* <div className="type">퀴즈 만들기, 퀴즈 맞추기, 마일리지를 이용한 상품구매</div>               */}
+              <div className="type">Frontend <br></br> JavaScript, React.js, React Hooks API  <br></br> React Router, Styled-Components </div>
+              {/* <div>JavaScript, React.js, React Hooks API, Axios <br></br> React Router, Styled-Components</div>               */}
+              <div className="more">
+                <img src={play} alt="play" />
+                <a style={{textDecoration: 'none'}} href='https://velog.io/@yonghk423/FourmenAir-%ED%8C%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8'>
                   <span className="type">자세히 보기</span>  
                 </a>            
               </div>
