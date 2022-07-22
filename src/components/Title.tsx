@@ -16,8 +16,11 @@ const Div = styled.div`
     }
   }
 `;
+interface ITitle {
+  value : string
+}
 
-const Title = ({ value }:any) => {
+const Title = ( { value }: ITitle ) => {
   console.log(value);
     return (
         <Div className="sideTitle">

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import logo from "../assets/logo.png"
+// import logo from "../assets/logo.png"
 import { motion } from "framer-motion";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
@@ -86,7 +86,7 @@ const Nav = styled(motion.nav)<{ state : number, ref: any, animate: any}>`
 const Navbar = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
     const [element, controls] = useScroll();
-    const html:HTMLHtmlElement | null = document.querySelector("html");
+    // const html:HTMLHtmlElement | null = document.querySelector("html");
     return (
     <Nav
       state={isNavOpen ? 1 : 0}
