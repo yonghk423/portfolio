@@ -91,7 +91,7 @@ const Section = styled.section<{ref:any}>`
 const Img = styled.img`
   justify-content: center;
   align-items: center;
-  margin: 100px;
+  margin: 80px;
   box-shadow: 10px 15px 25px 0 rgba(0,0,0,.5);
   border-radius: 5px;
 
@@ -113,7 +113,7 @@ const Portfolio = () => {
     
     return (
     <Section id="blog" ref={element}>
-      <Title value="Portfolio" />
+      <Title value="Project" />
       {/* <div className="decoration"></div> */}
       <div className="blogs">   
             <motion.div
